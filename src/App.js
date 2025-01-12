@@ -10,7 +10,7 @@ function App() {
   const sidebarRef = useRef();
   function opensidebar() {
     sidebarRef.current.style.transform = "translate(0px)";
-    sidebarRef.current.style.transsition = "transform 1s ease";
+    sidebarRef.current.style.transition = "transform 1s ease";
   }
   return (
     <section className="app-main">
