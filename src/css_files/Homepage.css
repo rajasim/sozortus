@@ -1,0 +1,49 @@
+.homepage {
+  width: 100%;
+}
+
+.homepage blockquote {
+  width: 100%;
+  padding: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 3;
+  background-color: white;
+}
+
+.homepage blockquote h1 {
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: blue;
+}
+
+.homepage blockquote button {
+  padding: 0.5rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.homepage blockquote button i {
+  font-size: 2.5rem;
+}
+
+.homepage figure {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.homepage figure video {
+  width: 100%;
+}
+
+.homepage figure h1 {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
