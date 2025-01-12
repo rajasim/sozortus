@@ -6,6 +6,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { useRef } from "react";
 import Footer from "./javascript_files/Footer";
+import Partner from "./javascript_files/Partner";
 
 function App() {
   const sidebarRef = useRef();
@@ -19,6 +20,7 @@ function App() {
       <Homepage opensidebar={opensidebar} />
       <AboutUs />
       <ITServices />
+      <Partner />
       <Footer />
     </section>
   );

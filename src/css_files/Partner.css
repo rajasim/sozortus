@@ -1,0 +1,115 @@
+.partner-with-us {
+  width: 100%;
+  padding: 2.5%;
+}
+
+.partner-with-us-intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin: 5rem 0;
+  color: darkblue;
+}
+
+.partner-with-us-intro aside {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.partner-with-us-intro blockquote h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.partner-with-us-intro aside blockquote {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.partner-with-us-intro aside blockquote h1 {
+  font-size: 7rem;
+  font-weight: 200;
+}
+
+.partner-with-us-intro aside blockquote p {
+  font-size: 1.5rem;
+}
+
+.partner-with-us-outro {
+  width: 100%;
+  position: relative;
+}
+
+.partner-with-us-outro figure {
+  width: 100%;
+}
+
+.partner-with-us-outro figure video {
+  width: 100%;
+}
+
+#partner-with-us-outro-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  color: white;
+  z-index: 3;
+}
+
+#partner-with-us-outro-info p {
+  font-size: 1.5rem;
+}
+
+#partner-with-us-outro-info h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.partner-with-us-outro aside {
+  position: absolute;
+  width: 55%;
+  top: 30%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.partner-with-us-outro aside blockquote {
+  padding: 4rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: darkblue;
+  border-radius: 1rem;
+}
+
+.partner-with-us-outro aside blockquote p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1400px) {
+  .partner-with-us-outro aside blockquote {
+    padding: 2rem;
+  }
+
+  .partner-with-us-outro aside {
+    top: 20%;
+  }
+
+  .partner-with-us-outro aside blockquote p {
+    font-size: 1.2rem;
+  }
+
+  #partner-with-us-outro-info h1 {
+    font-size: 2rem;
+  }
+}
