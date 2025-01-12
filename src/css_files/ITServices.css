@@ -38,3 +38,9 @@
 .it-services aside figure:nth-child(even) {
   margin-top: 5rem;
 }
+
+@media (max-width: 1400px) {
+  .it-services aside {
+    gap: 1.5rem;
+  }
+}
