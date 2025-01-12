@@ -11,6 +11,7 @@
   z-index: 4;
   background-color: rgba(0, 0, 0, 0.2);
   transform: translateX(-1920px);
+  transition: transform 1s ease;
 }
 
 .sidebar div {
