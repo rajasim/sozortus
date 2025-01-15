@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   gap: 5rem;
+  transform: skew(140deg);
 }
 
 .about-us figure {

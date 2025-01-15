@@ -1,5 +1,6 @@
 .it-services {
   width: 100%;
+  margin: 5rem 0;
   padding: 2.5%;
 }
 
@@ -29,6 +30,8 @@
   flex-direction: column;
   gap: 1.5rem;
   color: darkblue;
+  transform: translateY(-1500px);
+  opacity: 0;
 }
 
 .it-services aside figure img {

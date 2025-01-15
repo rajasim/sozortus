@@ -1,7 +1,38 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../css_files/Partner.css";
 
 function Partner() {
+  const partnerref = useRef();
+  useEffect(() => {
+    const observe = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const div = entry.target.querySelector("figure");
+          div.style.transform = "translate(0px)";
+          div.style.transition = "transform 2s ease";
+
+          observer.disconnect();
+        }
+      });
+    };
+
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+    const observer = new IntersectionObserver(observe, options);
+
+    if (partnerref.current) {
+      observer.observe(partnerref.current);
+    }
+
+    return () => {
+      if (partnerref.current) {
+        observer.unobserve(partnerref.current);
+      }
+    };
+  }, []);
   return (
     <section className="partner-with-us">
       <div className="partner-with-us-intro">
@@ -29,7 +60,7 @@ function Partner() {
           </blockquote>
         </aside>
       </div>
-      <div className="partner-with-us-outro">
+      <div className="partner-with-us-outro" ref={partnerref}>
         <figure>
           <video src="/videos/partner_with_us.mp4" autoPlay loop muted></video>
         </figure>

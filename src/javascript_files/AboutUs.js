@@ -1,9 +1,41 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../css_files/AboutUs.css";
 
 function AboutUs() {
+  const aboutusref = useRef();
+  useEffect(() => {
+    const observe = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const div = entry.target;
+          console.log(div);
+          div.style.transform = "skew(0deg)";
+          div.style.transition = "transform 2s ease";
+
+          observer.disconnect();
+        }
+      });
+    };
+
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+    const observer = new IntersectionObserver(observe, options);
+
+    if (aboutusref.current) {
+      observer.observe(aboutusref.current);
+    }
+
+    return () => {
+      if (aboutusref.current) {
+        observer.unobserve(aboutusref.current);
+      }
+    };
+  }, []);
   return (
-    <div className="about-us">
+    <div className="about-us" ref={aboutusref}>
       <figure>
         <img src="/images/Image 724.png" />
       </figure>
