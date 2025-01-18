@@ -1,6 +1,14 @@
 .homepage {
   width: 100%;
 }
+#my-class{
+  height: 5px;
+}
+#navbar-logo-image{
+  height: 100px;
+  width: 300px;
+}
+
 
 .homepage blockquote {
   width: 100%;
@@ -13,10 +21,11 @@
   background-color: white;
 }
 
-.homepage blockquote h1 {
-  font-size: 2.5rem;
+.homepage blockquote h4 {
+  font-size: 1.5rem;
   font-weight: 200;
   color: blue;
+  
 }
 
 .homepage blockquote button {
@@ -28,6 +37,7 @@
 .homepage blockquote button i {
   font-size: 2.5rem;
 }
+
 
 .homepage figure {
   width: 95%;

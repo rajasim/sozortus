@@ -6,34 +6,32 @@ function Footer() {
     <div className="footer">
       <figure>
         <video src="/videos/likesandclicks.mp4" autoPlay loop muted></video>
-        <h1>likes and clicks</h1>
+        <h1>Sozartus</h1>
       </figure>
       <footer>
         <blockquote>
-          <p>Home</p>
-          <p>About</p>
-          <p>Book a Service</p>
-          <p>Blog</p>
+          <p>Contact Us</p>
+          <p>+91 75889 95299</p>
+          <p>+91 88050 50358</p>
+          
         </blockquote>
         <blockquote>
-          <p>Terms & Conditions</p>
-          <p>Refund Policy</p>
-          <p>Privacy Policy</p>
-          <p>Accessibility Statement</p>
+          <p>Address</p>
+          <p>Mailing Address as per record<br></br> available in Registar of
+          <br></br> Companies office:
+SOZORTUS AI PRIVATE LIMITED 
+FL-B-401 YASH RHYTHM , SN-37, KHONDHWA KH, Pune city , pune-411048, Maharashtra 
+*as issued by income tax department</p>
+          
         </blockquote>
+        
+          
+        <blockquote></blockquote>
+         
+       
         <blockquote>
-          <p>Facebook</p>
-          <p>Linkedin</p>
-          <p>X</p>
-        </blockquote>
-        <blockquote>
-          <p>500 Terry Francine St.</p>
-          <p>San Francisco, CA 94158</p>
-        </blockquote>
-        <blockquote>
-          <p>Info@mysite.com</p>
-          <p>123-456-7890</p>
-          <p>© 2025 by Be.Guardit.</p>
+          <p>Info@Sozartus.com</p>
+          
           <p>
             Built on <b>React</b>
           </p>

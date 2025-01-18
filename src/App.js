@@ -7,6 +7,7 @@ import "./App.css";
 import { useRef } from "react";
 import Footer from "./javascript_files/Footer";
 import Partner from "./javascript_files/Partner";
+import Client from "./javascript_files/Client";
 
 function App() {
   const sidebarRef = useRef();
@@ -20,8 +21,10 @@ function App() {
       <Homepage opensidebar={opensidebar} />
       <AboutUs />
       <ITServices />
+      <Client/>
       <Partner />
       <Footer />
+      
     </section>
   );
 }

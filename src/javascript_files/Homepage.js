@@ -12,7 +12,7 @@ function Homepage({ opensidebar }) {
   return (
     <div className="homepage">
       <blockquote ref={blockquotesize}>
-        <h1>likes and clicks</h1>
+         <img id="navbar-logo-image" src="/images/sozartus.jpeg" />
         <button onClick={opensidebar}>
           <i class="fa-solid fa-bars"></i>
         </button>

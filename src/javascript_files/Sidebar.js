@@ -6,6 +6,8 @@ function Sidebar({ sidebarRef }) {
     sidebarRef.current.style.transform = "translateX(-1920px)";
     sidebarRef.current.style.transition = "transform 1s ease";
   }
+
+  
   return (
     <section className="sidebar">
       <section ref={sidebarRef}>

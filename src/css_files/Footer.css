@@ -27,7 +27,7 @@
 .footer footer {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 1rem;
   row-gap: 1rem;
   padding: 2rem 0;

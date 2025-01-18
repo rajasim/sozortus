@@ -35,6 +35,7 @@ function AboutUs() {
     };
   }, []);
   return (
+    <section style={{width:"100%",overflow:"hidden"}}>
     <div className="about-us" ref={aboutusref}>
       <figure>
         <img src="/images/Image 724.png" />
@@ -62,6 +63,7 @@ function AboutUs() {
         </blockquote>
       </aside>
     </div>
+    </section>
   );
 }
 
