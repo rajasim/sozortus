@@ -58,3 +58,46 @@
   font-weight: bold;
   font-size: 2.5rem;
 }
+@media (max-width: 1200px) {
+  #navbar-logo-image {
+    height: 80px;
+    width: 250px;
+  }
+
+  .homepage figure h1 {
+    font-size: 2rem;
+    bottom: 35%;
+    left: 8%;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  #navbar-logo-image {
+    height: 60%;
+    width: 100%;
+  }
+
+  .homepage blockquote {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .homepage blockquote h4 {
+    font-size: 1rem;
+  }
+
+  .homepage blockquote button i {
+    font-size: 1.5rem;
+  }
+
+  .homepage figure h1 {
+    font-size: 1.5rem;
+    bottom: 25%;
+    left: 5%;
+    text-align: center;
+  }
+}

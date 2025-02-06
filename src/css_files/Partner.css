@@ -66,11 +66,16 @@
 
 #partner-with-us-outro-info p {
   font-size: 1.5rem;
+  position: relative;
+  top: 2rem;
 }
 
 #partner-with-us-outro-info h1 {
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 100;
+  position: relative;
+  right: 2rem;
+  top: 3rem;
 }
 
 .partner-with-us-outro aside {
@@ -112,5 +117,40 @@
 
   #partner-with-us-outro-info h1 {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partner-with-us-intro aside {
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+  }
+
+  .partner-with-us-intro {
+    margin: 1rem 0;
+    gap: 1rem;
+  }
+
+  .partner-with-us-outro aside {
+    position: unset;
+    width: 100%;
+    margin: 2rem 0;
+  }
+  #partner-with-us-outro-info {
+    top: 0;
+    gap: 0;
+  }
+
+  #partner-with-us-outro-info h1 {
+    font-size: 1rem;
+  }
+
+  .partner-with-us-outro aside blockquote {
+    padding: 0.5rem;
+    box-shadow: 0 0 1rem lightgray;
+  }
+  .partner-with-us-outro aside blockquote p {
+    font-size: 1rem;
   }
 }

@@ -47,3 +47,29 @@
     gap: 1.5rem;
   }
 }
+
+@media (max-width: 480px) {
+  .it-services {
+    margin: 3rem 0 1rem 0;
+  }
+  .it-services blockquote {
+    width: 100%;
+  }
+
+  .it-services aside {
+    flex-direction: column;
+    margin: 2rem 0;
+    gap: 2rem;
+  }
+
+  .it-services aside figure {
+    transform: none;
+    opacity: 1;
+    gap: 0.5rem;
+  }
+
+  .it-services aside figure:nth-child(even) {
+    margin-top: 0;
+  }
+}
+

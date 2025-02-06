@@ -46,3 +46,11 @@
 .sidebar div button i {
   font-size: 2.5rem;
 }
+
+@media (max-width: 480px) {
+  .sidebar div {
+    width: 100%;
+    padding: 3rem;
+  }
+}
+
