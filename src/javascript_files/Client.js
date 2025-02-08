@@ -6,9 +6,9 @@ function Client() {
     <div className="App">
       <section className="brands-section">
         <h2 className="section-title">BRANDS THAT TRUST US</h2>
-        <div className="brands-container">
-          <div className="brand-card">Emcure</div>
-          <div className="brand-card">ReWaise</div>
+        <div style={{display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+           <img src="/images/image.jpeg" style={{width:"400px"}} />
+           <img src="/images/epp.jpeg" />
         </div>
       </section>
     </div>
