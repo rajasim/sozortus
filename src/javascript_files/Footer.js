@@ -38,13 +38,13 @@ pune-411048, Maharashtra, India</p>
         <blockquote>
           
         
-        <i class="fa-brands fa-square-whatsapp fa-2xl"></i>
-            <br></br>
+        
+            <br/>
 
-          <a href="http://wa.me/918805050358?text=Hi%2C%20%0AI%20am%20intrested%20in%20software%20services%20with%20Sozortus">Contact us</a>
-          <a href="http://wa.me/917588995299?text=Hi%2C%20%0AI%20am%20intrested%20in%20software%20services%20with%20Sozortus">Contact us</a>
+          <a href="http://wa.me/918805050358?text=Hi%2C%20%0AI%20am%20intrested%20in%20software%20services%20with%20Sozortus" style={{textDecoration:"none"}}><i class="fa-brands fa-square-whatsapp "></i> Contact us</a>
+          <a href="http://wa.me/917588995299?text=Hi%2C%20%0AI%20am%20intrested%20in%20software%20services%20with%20Sozortus" style={{textDecoration:"none"}}> <i class="fa-brands fa-square-whatsapp "></i> Contact us</a>
 
-          <p>Info@Sozortus.com</p>
+          <p><i class="fa-solid fa-envelope"></i> Info@Sozortus.com</p>
           
           
         </blockquote>

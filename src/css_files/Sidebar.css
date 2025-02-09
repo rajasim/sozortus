@@ -34,6 +34,11 @@
   font-weight: 100;
 }
 
+.sidebar div blockquote h1 a{
+  text-decoration: none;
+  color: white;
+}
+
 .sidebar div button {
   position: absolute;
   top: 1rem;

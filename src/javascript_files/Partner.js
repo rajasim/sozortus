@@ -34,8 +34,8 @@ function Partner() {
     };
   }, []);
   return (
-    <section className="partner-with-us">
-      <div className="partner-with-us-intro">
+    <section className="partner-with-us" >
+      <div className="partner-with-us-intro" id="partner-with-us-intro">
         <blockquote>
           <h1>
             INNOVATIVE SOLUTIONS <br /> FOR BUSINESSES

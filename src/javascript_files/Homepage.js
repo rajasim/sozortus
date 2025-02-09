@@ -10,8 +10,8 @@ function Homepage({ opensidebar }) {
     console.log(blockquotesize.current.clientHeight);
   }, []);
   return (
-    <div className="homepage">
-      <blockquote ref={blockquotesize}>
+    <div className="homepage" id="homepage">
+      <blockquote ref={blockquotesize} >
          <img id="navbar-logo-image" src="/images/sozartus.jpeg" />
         <button onClick={opensidebar}>
           <i class="fa-solid fa-bars"></i>

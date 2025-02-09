@@ -1,4 +1,4 @@
-/* General Reset */
+
 
   
   
@@ -6,6 +6,13 @@
     text-align: center;
     background-color: #f5f8ff;
     padding: 2rem;
+  }
+
+  .brands-section div{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap: 1rem;
   }
   
   .section-title {
@@ -53,5 +60,9 @@
   
     .brands-section h2 {
       margin-bottom: 1rem;
+    }
+
+    .brands-section div{
+      flex-direction: column;
     }
   }

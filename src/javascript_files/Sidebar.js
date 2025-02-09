@@ -8,15 +8,17 @@ function Sidebar({ sidebarRef }) {
   }
 
   
+
+  
   return (
     <section className="sidebar">
       <section ref={sidebarRef}>
         <div>
           <blockquote>
-            <h1>Home</h1>
-            <h1>About</h1>
-            <h1>Book a Service</h1>
-            <h1>Blog</h1>
+            <h1><a href="#homepage">Home</a></h1>
+            <h1><a href="#about-us">About</a></h1>
+            <h1><a href="#brands-section">Book a Service</a></h1>
+            <h1><a href="#partner-with-us-intro">Blog</a></h1>
           </blockquote>
           <blockquote style={{ marginTop: "10rem" }}>
             <h3>SECURE YOUR BUSINESS TODAY</h3>
