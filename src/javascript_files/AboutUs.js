@@ -52,7 +52,7 @@ function AboutUs() {
         </blockquote>
         <blockquote style={{ flexDirection: "row" }}>
           <button>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+          <i class="fa-solid fa-circle-arrow-right"></i>
           </button>
           <h2>Learn More</h2>
         </blockquote>
