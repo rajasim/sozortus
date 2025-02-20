@@ -47,12 +47,7 @@ function AboutUs() {
         </blockquote>
         <blockquote>
           <h2>
-            This is a space to share more about the business: who's behind it,
-            what it does and what this site has to offer. It’s an opportunity to
-            tell the story behind the business or describe a special service or
-            product it offers. You can use this section to share the company's
-            history or highlight a particular feature that sets it apart from
-            competitors.
+          We are a dynamic and professional IT team, comprising expert developers, meticulous testers, cutting-edge cybersecurity specialists, and innovative marketing strategists. Our collective expertise enables us to deliver comprehensive solutions that cater to the diverse needs of our clients.
           </h2>
         </blockquote>
         <blockquote style={{ flexDirection: "row" }}>
