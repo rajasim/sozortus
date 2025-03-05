@@ -1,3 +1,15 @@
-# https://www.robotstxt.org/robotstxt.html
+
+User-agent: Googlebot
+allow: 
+User-agent: googlebot-image
+allow: 
+User-agent: googlebot-mobile
+allow: 
+User-agent: MSNBot
+allow: 
+User-agent: Slurp
+allow: 
 User-agent: *
-Disallow:
+allow: 
+Sitemap: https://sozortus.com/
+
