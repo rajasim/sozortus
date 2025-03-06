@@ -11,5 +11,5 @@ User-agent: Slurp
 allow: 
 User-agent: *
 allow: 
-Sitemap: https://sozortus.com/
+Sitemap: https://sozortus.com
 
