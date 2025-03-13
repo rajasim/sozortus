@@ -22,7 +22,7 @@ function Sidebar({ sidebarRef }) {
           </blockquote>
           <blockquote style={{ marginTop: "10rem" }}>
             <h3>SECURE YOUR BUSINESS TODAY</h3>
-            <h3>INFO@MYSITE.COM</h3>
+            
           </blockquote>
           <button onClick={closeSidebar}>
             <i className="fa-solid fa-xmark"></i>
